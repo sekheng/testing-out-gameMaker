@@ -10,6 +10,12 @@
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\Script_Just_For_PLayer.gml</script>
+    <script>scripts\Turn_the_image_angle_left_by_2_in_a_frame.gml</script>
+    <script>scripts\turn_the_image_angle_right.gml</script>
+    <script>scripts\move_the_image_forward_based_on_the_angle_f.gml</script>
+  </scripts>
   <shaders name="shaders">
     <shader type="GLSLES">shaders\shader0.shader</shader>
   </shaders>
