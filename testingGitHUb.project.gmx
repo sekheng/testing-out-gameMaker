@@ -8,11 +8,13 @@
   <sprites name="sprites">
     <sprite>sprites\spr_player</sprite>
     <sprite>sprites\spr_buller</sprite>
+    <sprite>sprites\spr_asteroid</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\Script_Just_For_PLayer.gml</script>
+    <script>scripts\script_for_asteroid.gml</script>
   </scripts>
   <shaders name="shaders">
     <shader type="GLSLES">shaders\shader0.shader</shader>
@@ -20,6 +22,7 @@
   <objects name="objects">
     <object>objects\obj_player</object>
     <object>objects\obj_buller</object>
+    <object>objects\obj_asteroid</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_game</room>
