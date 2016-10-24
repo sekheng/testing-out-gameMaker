@@ -15,6 +15,8 @@
   <scripts name="scripts">
     <script>scripts\Script_Just_For_PLayer.gml</script>
     <script>scripts\script_for_asteroid.gml</script>
+    <script>scripts\scr_restart_game.gml</script>
+    <script>scripts\scr_destroy_itself.gml</script>
   </scripts>
   <shaders name="shaders">
     <shader type="GLSLES">shaders\shader0.shader</shader>
