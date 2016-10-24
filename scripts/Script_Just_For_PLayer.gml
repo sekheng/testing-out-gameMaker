@@ -16,4 +16,5 @@ if (keyboard_check_pressed(vk_space))
     bullet.direction = image_angle;
     bullet.image_angle = image_angle;
     bullet.speed = 15;
+    audio_play_sound(snd_shoot, 0, 0);
 }

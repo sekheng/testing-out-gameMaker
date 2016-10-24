@@ -26,6 +26,8 @@
           <argument>
             <kind>1</kind>
             <string>///Nothing
+global.points += 100;
+audio_play_sound(snd_explode, 0, 0);
 </string>
           </argument>
         </arguments>
