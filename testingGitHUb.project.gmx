@@ -9,6 +9,7 @@
     <sprite>sprites\spr_player</sprite>
     <sprite>sprites\spr_buller</sprite>
     <sprite>sprites\spr_asteroid</sprite>
+    <sprite>sprites\spr_asteroid_s</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -16,15 +17,18 @@
     <script>scripts\Script_Just_For_PLayer.gml</script>
     <script>scripts\script_for_asteroid.gml</script>
     <script>scripts\scr_restart_game.gml</script>
-    <script>scripts\scr_destroy_itself.gml</script>
   </scripts>
   <shaders name="shaders">
     <shader type="GLSLES">shaders\shader0.shader</shader>
   </shaders>
+  <fonts name="fonts">
+    <font>fonts\funny_font</font>
+  </fonts>
   <objects name="objects">
     <object>objects\obj_player</object>
     <object>objects\obj_buller</object>
     <object>objects\obj_asteroid</object>
+    <object>objects\obj_asteroid_s</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_game</room>
