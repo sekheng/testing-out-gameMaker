@@ -8,7 +8,7 @@
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
-    <event eventtype="0" enumb="0">
+    <event eventtype="3" enumb="1">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -25,8 +25,10 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.points = 0;
-
+            <string>if (keyboard_check_pressed(ord("R")))
+{
+    game_restart();
+}
 </string>
           </argument>
         </arguments>
@@ -49,10 +51,13 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_set_color(c_white);
-draw_set_halign(fa_left);
-draw_set_valign(fa_top);
-draw_text(64,32,"Total Score:" + string(global.points));
+            <string>draw_set_halign(fa_center);
+draw_set_valign(fa_middle);
+draw_set_font(large_Funny_font);
+draw_set_colour(c_white);
+draw_text(room_width/2, room_height/2, "Game Over");
+draw_set_font(funny_font);
+draw_text(room_width/2, room_height/2 + 50, "Press R to restart");
 </string>
           </argument>
         </arguments>

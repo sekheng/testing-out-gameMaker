@@ -13,6 +13,7 @@
     <sprite>sprites\spr_buller</sprite>
     <sprite>sprites\spr_asteroid</sprite>
     <sprite>sprites\spr_asteroid_s</sprite>
+    <sprite>sprites\spr_dead_player</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -26,6 +27,7 @@
   </shaders>
   <fonts name="fonts">
     <font>fonts\funny_font</font>
+    <font>fonts\large_Funny_font</font>
   </fonts>
   <objects name="objects">
     <object>objects\obj_player</object>
@@ -34,6 +36,8 @@
     <object>objects\obj_asteroid_s</object>
     <object>objects\obj_score</object>
     <object>objects\obj_spawner</object>
+    <object>objects\obj_dead_player</object>
+    <object>objects\obj_game_over</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_game</room>
