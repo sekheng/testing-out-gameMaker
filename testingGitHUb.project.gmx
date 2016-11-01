@@ -19,6 +19,7 @@
     <sprite>sprites\spr_plat_player</sprite>
     <sprite>sprites\spr_plat_powerup</sprite>
     <sprite>sprites\spr_plat_player_b</sprite>
+    <sprite>sprites\spr_plat_enemy</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -46,8 +47,10 @@
     <object>objects\obj_plat_wall</object>
     <object>objects\obj_plat_player</object>
     <object>objects\obj_plat_powerup</object>
+    <object>objects\obj_plat_enemy</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_platform_2</room>
     <room>rooms\rm_platform</room>
     <room>rooms\rm_game</room>
   </rooms>
