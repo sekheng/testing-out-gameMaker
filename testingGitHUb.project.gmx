@@ -45,8 +45,8 @@
     <object>objects\obj_plat_player</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rm_game</room>
     <room>rooms\rm_platform</room>
+    <room>rooms\rm_game</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

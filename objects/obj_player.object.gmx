@@ -27,7 +27,6 @@
             <kind>1</kind>
             <string>image_speed = (1/3);
 alarm[0] = 240;
-x = rm_game.tempa;
 </string>
           </argument>
         </arguments>
