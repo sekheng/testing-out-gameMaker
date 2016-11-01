@@ -12,10 +12,9 @@ else speed = max(speed - 0.01, 0);
 
 if (keyboard_check_pressed(vk_space))
 {
-    var bullet = instance_create(x,y,spr_buller);
+    var bullet = instance_create(x,y,obj_buller);
     bullet.direction = image_angle;
     bullet.image_angle = image_angle;
     bullet.speed = 15;
     audio_play_sound(snd_shoot, 0, 0);
 }
-
