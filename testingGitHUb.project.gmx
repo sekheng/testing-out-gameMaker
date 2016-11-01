@@ -17,6 +17,8 @@
     <sprite>sprites\spr_dead_player</sprite>
     <sprite>sprites\spr_plat_wall</sprite>
     <sprite>sprites\spr_plat_player</sprite>
+    <sprite>sprites\spr_plat_powerup</sprite>
+    <sprite>sprites\spr_plat_player_b</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -43,6 +45,7 @@
     <object>objects\obj_game_over</object>
     <object>objects\obj_plat_wall</object>
     <object>objects\obj_plat_player</object>
+    <object>objects\obj_plat_powerup</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_platform</room>
