@@ -20,6 +20,8 @@
     <sprite>sprites\spr_plat_powerup</sprite>
     <sprite>sprites\spr_plat_player_b</sprite>
     <sprite>sprites\spr_plat_enemy</sprite>
+    <sprite>sprites\spr_plat_portal</sprite>
+    <sprite>sprites\spr_plat_checkpoint</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -27,6 +29,7 @@
     <script>scripts\Script_Just_For_PLayer.gml</script>
     <script>scripts\script_for_asteroid.gml</script>
     <script>scripts\scr_restart_game.gml</script>
+    <script>scripts\scr_death.gml</script>
   </scripts>
   <shaders name="shaders">
     <shader type="GLSLES">shaders\shader0.shader</shader>
@@ -48,8 +51,12 @@
     <object>objects\obj_plat_player</object>
     <object>objects\obj_plat_powerup</object>
     <object>objects\obj_plat_enemy</object>
+    <object>objects\obj_plat_portal</object>
+    <object>objects\obj_plat_checkpoint</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_initialze</room>
+    <room>rooms\rm_platform_3</room>
     <room>rooms\rm_platform_2</room>
     <room>rooms\rm_platform</room>
     <room>rooms\rm_game</room>
