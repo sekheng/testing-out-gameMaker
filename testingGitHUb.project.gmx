@@ -22,6 +22,7 @@
     <sprite>sprites\spr_plat_enemy</sprite>
     <sprite>sprites\spr_plat_portal</sprite>
     <sprite>sprites\spr_plat_checkpoint</sprite>
+    <sprite>sprites\spr_platform</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -53,6 +54,7 @@
     <object>objects\obj_plat_enemy</object>
     <object>objects\obj_plat_portal</object>
     <object>objects\obj_plat_checkpoint</object>
+    <object>objects\obj_platform</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_initialze</room>
