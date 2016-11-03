@@ -44,6 +44,7 @@ if (global.checkpointR == room)
 }
 
 key_down = 0;
+hsp_carry = 0;
 </string>
           </argument>
         </arguments>
@@ -109,13 +110,17 @@ if (place_meeting(x, y+1, obj_plat_wall))
         vsp = -jumpspeed;
 }
 
+var hsp_final = hsp + hsp_carry;
+hsp_carry = 0;
+
 //Horizontal Collision
-if (place_meeting(x+hsp,y,obj_plat_wall))
+if (place_meeting(x+hsp_final,y,obj_plat_wall))
 {
     while (!place_meeting(x+sign(hsp),y,obj_plat_wall))
     {
-        x += sign(hsp);
+        x += sign(hsp_final);
     }
+    hsp_final = 0;
     hsp = 0;
 }
 //Vertical Collision
@@ -129,7 +134,7 @@ if (place_meeting(x,y+vsp,obj_plat_wall))
 }
 
 // updating the position of the box.
-x += hsp;
+x += hsp_final;
 y += vsp;
 </string>
           </argument>
