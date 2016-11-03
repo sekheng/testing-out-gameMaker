@@ -45,6 +45,9 @@ if (global.checkpointR == room)
 
 key_down = 0;
 hsp_carry = 0;
+
+jumps = 0;
+jumpsmax = 2;
 </string>
           </argument>
         </arguments>
@@ -106,8 +109,15 @@ if (vsp &lt; 10)
 }
 if (place_meeting(x, y+1, obj_plat_wall))
 {
-    if (key_jump)
-        vsp = -jumpspeed;
+/*    if (key_jump)
+        vsp = -jumpspeed;*/
+        jumps = jumpsmax;
+}
+
+if (key_jump &amp;&amp; jumps &gt; 0)
+{
+    --jumps;
+    vsp = -jumpspeed;
 }
 
 var hsp_final = hsp + hsp_carry;
