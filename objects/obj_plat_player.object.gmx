@@ -120,6 +120,14 @@ if (key_jump &amp;&amp; jumps &gt; 0)
     vsp = -jumpspeed;
 }
 
+if (
+    (key_jump &amp;&amp; place_meeting(x+1,y,obj_plat_wall))
+    || (place_meeting(x-1,y,obj_plat_wall))
+    )
+{
+    vsp = -jumpspeed;
+}
+
 var hsp_final = hsp + hsp_carry;
 hsp_carry = 0;
 
