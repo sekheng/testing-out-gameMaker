@@ -27,7 +27,9 @@
     <sprite>sprites\spr_plat_player_jump</sprite>
     <sprite>sprites\spr_play_player_walk</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\background0</background>
+  </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\Script_Just_For_PLayer.gml</script>
@@ -59,8 +61,10 @@
     <object>objects\obj_plat_checkpoint</object>
     <object>objects\obj_platform</object>
     <object>objects\obj_plat_moving</object>
+    <object>objects\obj_test_cam_player</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_test_camera</room>
     <room>rooms\rm_initialze</room>
     <room>rooms\rm_platform_3</room>
     <room>rooms\rm_platform_2</room>
