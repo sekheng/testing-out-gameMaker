@@ -24,6 +24,8 @@
     <sprite>sprites\spr_plat_checkpoint</sprite>
     <sprite>sprites\spr_platform</sprite>
     <sprite>sprites\spr_plat_moving</sprite>
+    <sprite>sprites\spr_plat_player_jump</sprite>
+    <sprite>sprites\spr_play_player_walk</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
