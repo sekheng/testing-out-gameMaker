@@ -99,6 +99,7 @@ key_right = keyboard_check(vk_right);
 key_left = -keyboard_check(vk_left);
 key_jump = keyboard_check_pressed(vk_space);
 key_down = keyboard_check(vk_down);
+key_jump_held = keyboard_check(vk_space);
 
 //React to inputs
 move = key_left + key_right;
@@ -118,6 +119,11 @@ if (key_jump &amp;&amp; jumps &gt; 0)
 {
     --jumps;
     vsp = -jumpspeed;
+}
+
+if ((vsp &lt; 0) &amp;&amp; !key_jump_held)
+{
+    vsp = max(vsp, (-jumpspeed/4));
 }
 
 if (
