@@ -14,7 +14,7 @@
 draw_set_font(funny_font);
 global.storePlayerX = 32;
 global.storePlayerY = 92;</code>
-  <enableViews>0</enableViews>
+  <enableViews>-1</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
